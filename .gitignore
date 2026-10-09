@@ -1,0 +1,29 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+
+# 构建目录
+build/
+Debug/
+Release/
+out/
+.cache/
+
+# 编辑器 / IDE
+# 如果想让别人共用 VS Code 的编译配置，把 .vscode/ 这行注释掉，
+# 然后在里面只保留 tasks.json / launch.json / c_cpp_properties.json
+.vscode/
+.idea/
+*.swp
+*~
+
+# 其他
+*.log
